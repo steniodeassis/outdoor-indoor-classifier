@@ -31,6 +31,7 @@ Similarly, we see the RGB distribution after the augmentation. The differences i
 In the following, I show the different accuracies for Logistic Regression (LR), K-near-neighbors (KNN), and Convolution Neural Network (CNN).
 
 <div align="center">
+
 | ML Model   | 1st Project | 2nd Project |
 |----------|----------|----------|
 | LR   | 0.67 | 0.84  |
