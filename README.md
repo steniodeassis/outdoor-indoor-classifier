@@ -2,7 +2,7 @@
 
 When searching for "outdoors" in Google Photos, the application quickly displays images of parks, blue skies, and beaches. Similarly, searching for "indoors" yields images featuring ceilings, household objects, windows, and doors. I am interested in replicating this type of classification for my own photos using various machine-learning binary classification models (KNN, logistic regression, and CNN) and comparing their accuracy and efficiency.
 
-I am working with a dataset of 100 photos: 50 labeled as "indoors" and 50 as "outdoors." These photos were taken over the past ten months in London, Scotland, Houston, Faro, Berlin, and San Francisco.
+I am working with a dataset of 100 photos: 50 labeled as "indoors" and 50 as "outdoors." These photos were taken over ten months in London, Scotland, Houston, Faro, Berlin, and San Francisco.
 
 For the "indoors" label, I classified images taken under a roof, such as those inside planes or on terraces, or those with sufficient context to be recognized as indoor. The "outdoors" label included photos taken in open environments, like streets, building facades, and other exterior settings. To create a more diverse dataset, I also included images that lack clear cues but provide enough contextual information to update the model and improve its generalizability. The model will need to determine whether each image was captured indoors or outdoors, relying on macro cues like lighting, object types, shapes, colors, and shading.
 
