@@ -27,13 +27,15 @@ Similarly, we see the RGB distribution after the augmentation. The differences i
 
 ![image](https://github.com/user-attachments/assets/c2c2a719-725c-44e3-acd0-93afd851ae4f)
 
-
+## Models Accuracy
 In the following, I show the different accuracies for Logistic Regression (LR), K-near-neighbors (KNN), and Convolution Neural Network (CNN).
 
+<div align="center">
 | ML Model   | 1st Project | 2nd Project |
 |----------|----------|----------|
 | LR   | 0.67 | 0.84  |
 | KNN  | 0.77 | 0.86 |
 | CNN  | 0.71 | 0.94 |
+</div>
 
 So, by increasing the training data, we managed to improve the performance of the model; however, we still have to ensure this is not due to overfitting.
