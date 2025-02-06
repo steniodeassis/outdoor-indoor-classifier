@@ -11,7 +11,7 @@ To avoid overfitting and ensure the model's predictions aren't random, I will pe
 ![image](https://github.com/user-attachments/assets/b1d64476-a9c6-410d-944f-55bcdb76b222)
 
 ## RGB distribution over the dataset
-Below we see the distribution of the color channels (RGB) for different classes of images. I hypothesize the model will use the standard deviation and the mean difference for the blue channel for indoor and outdoor images, respectively, to learn and sort out the classes of images. The statistics can be found in the ([outdoor-indoor-classifier/binary_classification_1.ipynb](https://github.com/steniodeassis/outdoor-indoor-classifier/edit/main/README.md)).
+Below we see the distribution of the color channels (RGB) for different classes of images. I hypothesize the model will use the standard deviation and the mean difference for the blue channel for indoor and outdoor images, respectively, to learn and sort out the classes of images. The statistics can be found in the main notebook.
 
 ![image](https://github.com/user-attachments/assets/60d174d4-4679-491e-a0e9-a0cd8989115d)
 
